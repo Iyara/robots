@@ -4,7 +4,8 @@ from adafruit_crickit import crickit
 print("4 Servo demo!")
 
 # make a list of all the servos
-servos = (crickit.servo_1, crickit.servo_2, crickit.servo_3, crickit.servo_4)
+#servos = (crickit.servo_1, crickit.servo_2, crickit.servo_3, crickit.servo_4)
+servos = (crickit.servo_1, crickit.servo_2)
 
 while True:
     # Repeat for all 4 servos
